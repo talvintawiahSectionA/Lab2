@@ -5,3 +5,14 @@
 h1{
     color: blue;
 }
+
+.list{
+    font-weight: 200;
+    font-family: 'Times New Roman';
+    color: chocolate;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+  }
