@@ -1,18 +1,66 @@
-*{
-    font-family:  monospace;
+* {
+  font-family: monospace;
 }
 
-h1{
-    color: blue;
+header {
+  color: blue;
+  text-align: center;
+}
+body {
+  background-color: bisque;
+}
+main {
+  text-align: justify;
 }
 
-.list{
-    font-weight: 200;
-    font-family: 'Times New Roman';
-    color: chocolate;
+.list {
+  font-weight: 200;
+  font-family: "Times New Roman";
+  color: chocolate;
+}
+.profile-pic {
+  display: block;
+  width: 300px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.intro {
+  font-size: 15px;
 }
 
 footer {
-    position: fixed;
-    bottom: 0;
-  }
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: justify;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+
+.flex-item {
+  border: 1px solid;
+  padding: 20px;
+  margin: 3px;
+  font-size: 20px;
+  text-align: center;
+  flex-grow: 1;
+  border-radius: 10%;
+}
+
+.hobbies {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 250px;
+  border: 3px solid;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 10%;
+}
